@@ -23,9 +23,28 @@ a {
 
 
 .landing {
-  background: url("");
+  
 }
 
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url("../imgs/main-min.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding: 30px;
+}
+
+.hero-main .desc {
+  
+}
+
+.hero-main h1{
+  padding-bottom: 20px;
+}
 
 header button i {
   color: white;
@@ -41,6 +60,8 @@ header button {
 }
 header button:focus {
   outline: 0;
+}
+header button:hover {
   background: rgb(87, 90, 121);
 }
 
