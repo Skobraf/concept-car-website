@@ -8,11 +8,72 @@
 
 
 body {
-  background-color: lightblue;
   font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
-.navbar{
-	background-color: white;
+ul {
+  list-style: none;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.landing {
+  background: url("");
+}
+
+
+header button i {
+  color: white;
+  font-size: 30px;
+}
+header button {
+  border: none;
+  background: red;
+  border-radius: 25%;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+}
+header button:focus {
+  outline: 0;
+  background: rgb(87, 90, 121);
+}
+
+.nav .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background: #4D4F63;
+  padding: 20px 30px;
+  
+}
+
+.nav .left li {
+  margin-right: 20px;
+}
+
+.nav .right {
+  transform: translateX(-100vw);
+  color: white;
+  background: #4D4F63;
+  transition: transform 0.4s;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.nav .right li {
+  padding: 30px;
+}
+
+.nav .right li:hover {
+  background: gray;
+}
+
 
