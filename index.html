@@ -4,36 +4,32 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Concept Car Website</title>
-  
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
-  <script src="index.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  </script>
 </head>
 <body>
   <div class="landing">
-
-
-
-
-      <header class="nav">
-        <ul class="left">
-          <li><a href="">Tesla</a></li>
-        </ul>
-        <ul class="right">
-          <li><a href="">Order</a></li>
-          <li><a href="">Test Drive</a></li>
-          <li><a href="">Charging</a></li>
-          <li><a href="">Gallery</a></li>
-          <li><a href="">Videos</a></li>
-        </ul>
-      </header>
-
-
-
-
-
-
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+      </div>
       <div class="hero-main">
         <h1>Tesla Model S</h1>
         <p>The Tesla Model S is a full-sized electric five-door, luxury liftback, produced by Tesla Motors. Since its introduction in June 2012 it has achieved rapidly growing sales, particularly in Norway and California.</p>
@@ -61,6 +57,6 @@
       </div>
 
   </div>
-
+<script src="index.js"></script>
 </body>
 </html>
