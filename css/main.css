@@ -127,3 +127,29 @@ header button:hover {
 .hero-details {
   margin-bottom: 1000px;
 }
+
+.hero-details li{
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  padding:16px;
+  text-transform: uppercase;
+  color:#323;
+
+}
+
+.hero-details li:nth-child(odd) {
+  background-color:#4d4f63;
+  color:white;
+
+}
+.hero-details li h2{
+  font-weight: 100;
+  font-size: 5rem;
+}
+
+.hero-details li h3{
+  font-weight: 100;
+}
+.hero-details li h2 sup {
+      font-size: 2rem;
+}
