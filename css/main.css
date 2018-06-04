@@ -42,11 +42,13 @@ a {
 .desc {
   background: #30313e;
   color: white;
+  text-align: center;
   
 }
 
-.desc button{
-      display: flex;
+.hero-main button{
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
     background: none;
     text-align: center;
