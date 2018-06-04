@@ -50,6 +50,10 @@ a {
   margin-bottom: 20px;
 }
 
+.desc p {
+  display: none;
+}
+
 .hero-main button{
   margin: 0 auto;
   display: flex;
@@ -230,4 +234,95 @@ footer ul li {
 }
 footer ul li a:hover {
   color: rgba(200, 200, 200, 0.5);
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+      background-color: lightblue;
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      background: #4D4F63;
+  }
+  .nav .left {
+    background: #4D4F63;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav .right {
+    display: flex;
+    transform: translateX(0);
+    color: white;
+    background: #4D4F63;
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .hero-main {
+    height: 800px;
+    background: url(../imgs/tesla_model_s_hero.jpg);
+    background-size: auto 610px;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .hero-main button {
+    margin: 12px auto;
+  }
+
+  .desc p {
+    display: block;
+  
+  }
+
+  .hero-details ul{
+    display: flex;
+    height: 300px;
+  }
+  .hero-details ul li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sect ul {
+    display: flex;
+  }
+
+  .sect ul li {
+    width: 50%;
+    height: 283px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sect .reverse {
+    flex-direction: row-reverse;
+  }
+  .sect ul li p {
+    font-size: 0.9rem;
+  }
+
+  .join {
+    margin: 100px auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background: #30313e;
+    width: 100%;
+  }
+
 }
