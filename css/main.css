@@ -46,6 +46,10 @@ a {
   
 }
 
+.desc h1 {
+  margin-bottom: 20px;
+}
+
 .hero-main button{
   margin: 0 auto;
   display: flex;
@@ -110,7 +114,7 @@ header button:hover {
   color: white;
   background: #4D4F63;
   transition: transform 0.4s;
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
 }
@@ -125,7 +129,7 @@ header button:hover {
 
 
 .hero-details {
-  margin-bottom: 1000px;
+  
 }
 
 .hero-details li{
@@ -152,4 +156,39 @@ header button:hover {
 }
 .hero-details li h2 sup {
       font-size: 2rem;
+}
+
+.img-car1 {
+  display: block;
+  height: 180px;
+  background: url("../imgs/right-min.PNG");
+  background-position: center;
+  background-size: cover;
+}
+
+.img-car2 {
+  display: block;
+  height: 175px;
+  background: url("../imgs/left-min.PNG");
+  background-position: center;
+  background-size: contain;
+}
+
+.txt-car1 {
+  padding: 50px 20px;
+  background: #62647d;
+}
+
+.txt-car2 {
+  padding: 50px 20px;
+  background: #30313e;
+}
+
+.txt-car1 h2, .txt-car2 h2 {
+  margin-bottom: 20px;
+}
+.sect {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-bottom: 1000px;
 }
